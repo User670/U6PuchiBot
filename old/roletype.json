@@ -1,0 +1,36 @@
+{
+  "shortlist": [
+    
+    "town",
+    "mafia",
+    "neutral",
+    "unique",
+    "factional",
+    
+    "investigative",
+    "protective",
+    "killing",
+    "support",
+    "deception",
+    "evil",
+    "benign",
+    "chaos"
+  ],
+  "alias": {
+    
+    "town": "t",
+    "mafia": "m",
+    "neutral": "n",
+    "unique": "u",
+    "factional": "f",
+    
+    "investigative": "i",
+    "protective": "p",
+    "killing": "k",
+    "support": "s",
+    "deception": "d",
+    "evil": "e",
+    "benign": "b",
+    "chaos": "c"
+  }
+}

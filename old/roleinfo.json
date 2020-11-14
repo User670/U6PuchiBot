@@ -1,0 +1,122 @@
+{
+  "anesthetist": {
+    "name": "Anesthetist (anes)",
+    "alignment": "Mafia Support",
+    "ability": "You may disable a player each night, which will hide all status messages that they should have gotten that night.\nYou can only disable up to __4 times.__",
+    "attribute": "None."
+  },
+  "blackmailer": {
+    "name": "Blackmailer (bm)",
+    "alignment": "Mafia Support",
+    "ability": "You may blackmail a player each night, who will be silenced in all channels for the next day.",
+    "attribute": "None."
+  },
+  "consort": {
+    "name": "Consort",
+    "alignment": "Mafia Support",
+    "ability": "You may roleblock a player each night, who will be unable to perform their ability for that night.",
+    "attribute": "You will die if you roleblock a Serial Killer."
+  },
+  "coroner": {
+    "name": "Coroner",
+    "alignment": "Mafia Deception",
+    "ability": "You may forge the death cause of a player each night, which will be shown if the player dies on the same night.",
+    "attribute": "Forging more than twice will reveal to the public that there is a Coroner ingame."
+  },
+  "framer": {
+    "name": "Framer",
+    "alignment": "Mafia Deception",
+    "ability": "You may frame a player each night, who will be seen as a member of the Mafia to Sheriffs and Detectives.",
+    "attribute": "None."
+  },
+  "godfather": {
+    "name": "Godfather (gf)",
+    "alignment": "Mafia Killing (Unique)",
+    "ability": "You may order the Mafioso to attack a target of your choice each night. You'll attack the target on your own if the Mafioso cannot attack.",
+    "attribute": "You have permanent __Detection Immunity__ and __Night Defense__."
+  },
+  "inspector": {
+    "name": "Inspector",
+    "alignment": "Mafia Support",
+    "ability": "You may inspect a player to know their exact role each night.",
+    "attribute": "None."
+  },
+  "janitor": {
+    "name": "Janitor",
+    "alignment": "Mafia Deception",
+    "ability": "You may clean a player at night. If your target dies on the same night, their role will not be announced and only you will know their role.\nYou can only clean up to __3 times__.",
+    "attribute": "None."
+  },
+  "lurker": {
+    "name": "Lurker",
+    "alignment": "Mafia Support",
+    "ability": "You may watch a player each night to see their visitors and also their own target that night.",
+    "attribute": "None."
+  },
+  "mafioso": {
+    "name": "Mafioso (maf)",
+    "alignment": "Mafia Killing (Unique)",
+    "ability": "You carry out the Godfather's orders. If the Godfather does not issue an order, then you may decide a target on your own.",
+    "attribute": "If the Godfather is dead, then you will be promoted to Godfather."
+  },
+  
+  "bountyhunter": {
+    "name": "Bounty Hunter (bh)",
+    "alignment": "Neutral Evil",
+    "ability": "None.",
+    "attribute": "When the game begins, you'll get a random Townie's name as your target.\nIf your target dies at night, you'll become a *Lunatic*.\nYou have __Detection Immunity__ and __Night Defense__.",
+    "goal": "Get your target lynched at all costs."
+  },
+  "massshooter": {
+    "name": "Mass Shooter",
+    "alignment": "Neutral Killing (Unique)",
+    "ability": "You will go on a killing spree every other night. When on killing spree, you will attack your target and everyone who visits them at the same night.",
+    "attribute": "If you don't visit anyone, you'll attack everyone who visits you, similar to a *Veteran*.\nYour attack ignores __Night Defense__.",
+    "goal": "Kill everyone who wants you dead."
+  },
+  "lunatic": {
+    "name": "Lunatic",
+    "alignment": "Neutral Evil",
+    "ability": "Your goal is to get yourself lynched. If you succeed, you *must* kill a player that voted against you that day.",
+    "attribute": "Your attack will override *all* protections and immunities. You also have __Detection Immunity__.",
+    "goal": "Get yourself lynched at all costs."
+  },
+  "serialkiller": {
+    "name": "Serial Killer (sk)",
+    "alignment": "Neutral Killing",
+    "ability": "You may attack a player each night.",
+    "attribute": "You have permanent __Night Defense__.",
+    "goal": "Kill everyone who wants you dead."
+  },
+  "survivor": {
+    "name": "Survivor (surv)",
+    "alignment": "Neutral Benign",
+    "ability": "You may fortify your house at night, which will give you __Basic Defense__ for that night.\nYou can only fortify up to __4 times.__",
+    "attribute": "None.",
+    "goal": "Survive to the end of the game."
+  },
+  
+  "detective": {
+    "name": "Detective (det)",
+    "alignment": "Town Investigative",
+    "ability": "You may investigate a player each night, which will give you a hint to what role your target may be.",
+    "attribute": "None.",
+    "extra": "**See also:**\nPossible investigation results: `.role det results`",
+    "sub": [
+      "results"
+    ],
+    "subtext": {
+      "results": [
+        "Detective Investigation Results",
+        "\nDetectives will see roles in following groups:\n\nBlackmailer/Agent/Jigsaw\nAssassin/Veteran/Mafioso\nEscort/Driver/Consort\nLookout/Tracker/Lurker\nDoctor/Serial Killer/Janitor\nSheriff/Bounty Hunter/Arsonist\nSorcerer/Resurrector/Anomaly\nSurvivor/Medium/Cultist\nFramer/Lunatic/Hitman\nBodyguard/Godfather/Exorcist\nCoroner/Forger/Mayor\nDetective/Inspector\nAnesthetist/Amnesiac"
+      ]
+    }
+  },
+  
+  "doctor": {
+    "name": "Doctor (doc)",
+    "alignment": "Town Support",
+    "ability": "You may heal a player each night, which will grant them __Night Immunity__.\nYou can also heal yourself, but only once.",
+    "attribute": "None."
+  }
+}
